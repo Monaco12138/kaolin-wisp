@@ -1,7 +1,6 @@
 mkl
 tensorboard
 matplotlib
-git+https://github.com/tinyobjloader/tinyobjloader.git@v2.0.0rc8#subdirectory=python
 pybind11
 pyyaml
 pandas

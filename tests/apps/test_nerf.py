@@ -175,3 +175,7 @@ class TestNerfApp(TestWispApp):
 
         assert float(metrics[100]['PSNR']) > 27.4, 'PSNR is too low.'
         report_metrics(metrics)  # Prints to log
+
+
+# nerf = TestNerfApp()
+# nerf.test_hashgrid_V8('./data/V8', 4)
